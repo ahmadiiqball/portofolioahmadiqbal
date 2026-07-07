@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Ahmad Iqbal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">AI.</a>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#projects">Projek</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="foto-profile.jpg" alt="Ahmad Iqbal">
+            </div>
+            <div class="hero-content">
+                <h1>Halo, Saya <span class="highlight">Ahmad Iqbal</span></h1>
+                <p>Mahasiswa S1 Teknik Telekomunikasi Telkom University | Network & IT Infrastructure</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Lihat Projek</a>
+                    <a href="#contact" class="btn secondary-btn">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>Tentang Saya</h2>
+        <div class="underline"></div>
+        <p>Saya adalah mahasiswa S1 Teknik Telekomunikasi di Telkom University yang saat ini menempuh Semester 6 dengan IPK 3.31. Memiliki minat yang mendalam pada bidang jaringan, sistem komunikasi nirkabel, dan infrastruktur IT. Sebagai asisten laboratorium dan riset, saya terbiasa melakukan perancangan, analisis link, serta simulasi teknologi telekomunikasi terapan. Berpengalaman dalam kepemimpinan organisasi untuk mengelola sumber daya manusia secara efektif.</p>
+    </section>
+
+    <section id="experience" class="section bg-light">
+        <h2>Pengalaman & Laboratorium</h2>
+        <div class="underline"></div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Asisten Riset Lab. Dasar Transmisi</h3>
+                <span class="date">Mei 2025 - Sekarang</span>
+                <p>Melakukan proyek riset perancangan desain antena mikrostrip menggunakan software CST, menyelenggarakan workshop antena kepada mahasiswa FTE, serta mengoordinasikan kunjungan industri ke BRIN.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Wakil Ketua UKM Paskibra Telkom University</h3>
+                <span class="date">Desember 2024 - Desember 2025</span>
+                <p>Mengurus manajemen sumber daya manusia internal dengan total anggota aktif, memimpin organisasi, serta bertindak sebagai Ketua Pelaksana pada agenda besar seperti TOGETHER 6.0.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Asisten Praktikum Lab. Fisika Dasar</h3>
+                <span class="date">Agustus 2024 - Sekarang</span>
+                <p>Mengajar praktikum untuk mahasiswa tingkat 1 Fakultas Teknik Elektro (FTE) dan Fakultas Rekayasa Industri (FRI) dengan rata-rata 30 praktikan setiap minggunya. Tim inti dalam menyelenggarakan rekruitasi asisten laboratorium baru.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projek Terbaru & Rekayasa Sistem</h2>
+        <div class="underline"></div>
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Perancangan Jaringan FTTH GPON (Calistha Dago)</h3>
+                    <p>Mendesain infrastruktur jaringan Fiber To The Home (FTTH) dari STO Dago menuju 20 unit rumah di Perumahan Calista sesuai standar ITU-T. Menggunakan kombinasi metode tanam bawah tanah untuk kabel feeder (1.5 km) dan jaringan udara untuk jalur distribusi (0.6 km). Menggunakan kabel single-mode G.652.D pada link utama dan G.657.A2 yang tahan tekukan tajam untuk drop cable pelanggan. Validasi teknis menggunakan Link Power Budget menunjukkan total redaman link sebesar 22.45 dB (Daya terima -19.45 dBm) dengan margin daya aman +8.55 dB.</p>
+                    <div class="tag-container">
+                        <span class="tech-tag">GPON</span> 
+                        <span class="tech-tag">Fiber Optic</span>
+                        <span class="tech-tag">Link Power Budget</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Link Design & System Microwave Design (Karawang - Pamanukan)</h3>
+                    <p>Merancang sistem komunikasi gelombang mikro Point-to-Point lintas wilayah berjarak lebih dari 55 km. Dikarenakan kendala geografis berupa kelengkungan bumi (Earth Bulge) yang menghalangi Line of Sight, jalur langsung tidak memungkinkan karena memerlukan tinggi menara ekstrem. Masalah ini diselesaikan dengan merancang solusi Active Repeater di daerah Camilang guna memecah lintasan menjadi 2 hop. Sukses menurunkan tinggi menara ke batas wajar (51m & 65m) sekaligus menjaga Fading Margin > 26 dB dengan target availability 99.99%.</p>
+                    <div class="tag-container">
+                        <span class="tech-tag">Pathloss 5</span> 
+                        <span class="tech-tag">Microwave Link</span>
+                        <span class="tech-tag">Google Earth Pro</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Rancang Bangun Sistem Monitoring Pintu Real-Time Berbasis IoT</h3>
+                    <p>Mengembangkan sistem keamanan rumah pintar terintegrasi dengan memparalelkan subsistem kontrol dan otomatisasi tanpa saling mengganggu. Menggunakan Arduino Mega 2560 sebagai mikrokontroler utama proses data sensor dan ESP32 sebagai modul Wi-Fi untuk pengiriman data nirkabel. Mengintegrasikan sensor RFID RC522 sebagai akses Solenoid Door Lock, alarm Buzzer otomatis jika mendeteksi kartu tidak dikenal, serta sensor LDR untuk sistem sakelar lampu otomatis berdasarkan kondisi intensitas cahaya sekitar. Seluruh log aktivitas dikirim langsung ke platform Blynk secara real-time.</p>
+                    <div class="tag-container">
+                        <span class="tech-tag">ESP32</span> 
+                        <span class="tech-tag">Arduino Mega</span>
+                        <span class="tech-tag">Blynk IoT</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <h2>Keahlian & Sertifikasi</h2>
+        <div class="underline"></div>
+        <div class="skills-container">
+            <div class="skills-box">
+                <h3>Hard Skills & Tools</h3>
+                <ul>
+                    <li>CST Studio Suite (Antenna Design)</li>
+                    <li>Pathloss 5 & Google Earth Pro</li>
+                    <li>Mikrokontroler (Arduino, ESP32)</li>
+                    <li>Matlab & Wireshark</li>
+                    <li>Cisco Networking Configuration</li>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <h3>Sertifikasi</h3>
+                <ul>
+                    <li>CCNA Certification</li>
+                    <li>EPRT Telkom University</li>
+                    <li>ECCT MKWU Bahasa Inggris</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <h2>Hubungi Saya</h2>
+        <div class="underline"></div>
+        <div class="contact-info">
+            <p><strong>Email:</strong> ahmadiqbal549646@gmail.com</p>
+            <p><strong>Telepon:</strong> (+62) 882-3813-6749</p>
+            <p><strong>Lokasi:</strong> Bandung, Indonesia</p>
+            <a href="https://linkedin.com/in/ahmadiqbal/" target="_blank" class="btn primary-btn font-sm">LinkedIn Profile</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ahmad Iqbal. Built with GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
